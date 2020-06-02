@@ -3,7 +3,7 @@
 
 def enlarge(n):
     """
-    Param n is a number
+    Param n is a number (either float or integer is OK)
 
     Function will enlarge the number
     """
