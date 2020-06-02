@@ -18,7 +18,7 @@ def add_state_names_column(my_df):
 
     names_map = {"CA": "Cali", "CO": "Colo", "CT": "Conn"}
 
-    new_df["name"] = new_df["abbrev"].map(names_map)
+    new_df["name"] = new_df["abbrev"].map(names_map) # see: https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.Series.map.html
 
     return new_df
 
