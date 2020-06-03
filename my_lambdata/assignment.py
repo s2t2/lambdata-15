@@ -2,10 +2,6 @@
 
 from pandas import DataFrame
 
-# TODO: helper function from Assignment
-# State abbreviation -> Full Name and visa versa.
-# FL -> Florida, etc.
-
 def add_state_names_column(my_df):
     """
     Add a column of corresponding state names to a dataframe.
