@@ -16,5 +16,5 @@ setup(
     #license="MIT",
     url="https://github.com/s2t2/lambdata-15",
     #keywords="",
-    packages=find_packages() # ["my_lambdata"]
+    packages=["my_lambdata"] #find_packages() # ["my_lambdata"]
 )
